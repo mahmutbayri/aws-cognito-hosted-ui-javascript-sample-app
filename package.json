@@ -1,0 +1,14 @@
+{
+  "name": "my-project",
+  "browserslist": "> 0.25%, not dead",
+  "scripts": {
+    "serve": "npx webpack-cli serve",
+    "build": "npx webpack-cli"
+  },
+  "dependencies": {
+    "@aws-amplify/auth": "^4.3.19",
+    "dotenv": "^10.0.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  }
+}
